@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<style type="text/css">
+body{
+background-image:url("/bg.jpeg");
+background-repeat:no-repeat;
+background-size: cover;
+
+ 
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color:black;
+  color:  #ddd;
+}
+
+.topnav a.active {
+  background-color: red;
+  color: white;
+}
+
+.topnav-right {
+  float: right;
+}
+</style>
+</head>
+
+<body>
+
+	<div class="topnav">
+   <a th:href="@{/Adminlogin}" class="active">Admin</a>
+  <a th:href="@{/about}">About Us</a>
+  <a th:href="@{/}">bla</a>
+  <div class="topnav-right">
+    <a href="#search">LogOut</a>
+    <a th:href="@{/Cart}">Cart</a>
+  </div></div>
+	
+
+	<br>
+	<br>
+
+	<div class = "container">
+		<div class = "row" style="text-align:center;">
+			<div class = "col-md-6 col-md-offset-3">
+
+
+<h1>About us</h1>
+</body>
+</html>
